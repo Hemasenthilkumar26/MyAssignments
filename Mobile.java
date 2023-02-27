@@ -1,24 +1,50 @@
-package week1.day1;
+package week2.day1;
 
-public class Mobile
-{
-	String mobileBrandName ="Google Pixel";
-	char mobileLogo='G';
-	short noOfMobilePiece=20;
-	int modelNumber=7382516;
-	long mobileImeiNumber=1252405410;
-	float mobilePrice=30999.65F;
-	boolean isDamaged=false;
-	public static void main(String[] args) 
-	{
-		Mobile mob=new Mobile();
-		System.out.println(mob.mobileBrandName);
-		System.out.println("Mobile logo ="+mob.mobileLogo);
-		System.out.println("No. of mobile piece "+" ="+mob.noOfMobilePiece);
-		System.out.println("Mobile IMEI number "+" ="+mob.mobileImeiNumber);
-		System.out.println("Mobile price "+" ="+mob.mobilePrice);
-		System.out.println("Damaged "+" ="+mob.isDamaged);
-		
+public class Mobile {
+	public void switchOn() {
+		System.out.println("Switch on the mobile");
 	}
+	public void sendText() {
+		System.out.println("Send Text");
+	}
+	public void callSomeone() {
+		System.out.println("Call Someone");
+	}
+	public void shareDocument() {
+		System.out.println("Share Document");
+	}
+	public void onlineTransaction() {
+		System.out.println("Online Transaction");
+	}
+	public void playGames() {
+		System.out.println("play Games");
+	}
+	public void watchMovie() {
+		System.out.println("watch Movie");
+	}
+	public void playMusic() {
+		System.out.println("play Music");
+	}
+	public void restartMobile() {
+		System.out.println("Restart the Mobile");
+	}
+	public void switchOff() {
+		System.out.println("Switch Off the mobile");
+	}
+public static void main(String[] args)
+{
+Mobile myMob=new Mobile();
+myMob.switchOn();
+myMob.sendText();
+myMob.callSomeone();
+myMob.shareDocument();
+myMob.onlineTransaction();
+myMob.playGames();
+myMob.sendText();
+myMob.watchMovie();
+myMob.playMusic();
+myMob.restartMobile();
+myMob.switchOff();
 }
 
+}
